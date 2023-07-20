@@ -1,0 +1,6 @@
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/domain/depoimentos/Depoimento.java
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/ApiApplication.java
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/controller/DepoimentosController.java
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/domain/depoimentos/DadosCadastroDepoimento.java
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/infra/CorsConfiguration.java
+/home/walisson/Documentos/Projetos/jornadamilhas/src/main/java/com/jornadamilhas/api/domain/depoimentos/DepoimentoRepository.java

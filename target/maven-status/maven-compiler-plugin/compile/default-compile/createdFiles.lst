@@ -1,0 +1,6 @@
+com/jornadamilhas/api/ApiApplication.class
+com/jornadamilhas/api/domain/depoimentos/Depoimento.class
+com/jornadamilhas/api/controller/DepoimentosController.class
+com/jornadamilhas/api/infra/CorsConfiguration.class
+com/jornadamilhas/api/domain/depoimentos/DepoimentoRepository.class
+com/jornadamilhas/api/domain/depoimentos/DadosCadastroDepoimento.class
