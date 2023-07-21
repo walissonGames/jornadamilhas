@@ -1,5 +1,6 @@
 package com.jornadamilhas.api.domain.depoimentos;
 
+import java.io.UnsupportedEncodingException;
 import java.util.Base64;
 
 public record DadosDetalhamentoDepoimento(
@@ -16,7 +17,7 @@ public record DadosDetalhamentoDepoimento(
         this(depoimento.getId(),
              depoimento.getNome(),
              depoimento.getDepoimento(),
-             imageToBase64(depoimento.getFoto()
-            ));
+             imageToBase64(depoimento.getFoto())
+        );
     }
 }

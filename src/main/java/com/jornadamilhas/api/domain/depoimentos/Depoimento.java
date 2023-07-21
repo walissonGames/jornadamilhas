@@ -1,6 +1,8 @@
 package com.jornadamilhas.api.domain.depoimentos;
 
 import java.io.IOException;
+import java.util.Base64;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -25,7 +27,7 @@ public class Depoimento {
     public Depoimento(DadosCadastroDepoimento dados) throws IOException {
         this.nome = dados.nome();
         this.depoimento = dados.depoimento();
-        this.foto = dados.foto().getBytes();
+        this.foto = Base64.getDecoder().decode(dados.foto());
     }
 
     public void atualizarInformacoes(DadosAtualizacaoDepoimento dados) throws IOException {
@@ -34,6 +36,6 @@ public class Depoimento {
         if (dados.depoimento() != null)
             this.depoimento = dados.depoimento();
         if (dados.foto() != null)
-            this.foto = dados.foto().getBytes();
+            this.foto = Base64.getDecoder().decode(dados.foto());
     }
 }
