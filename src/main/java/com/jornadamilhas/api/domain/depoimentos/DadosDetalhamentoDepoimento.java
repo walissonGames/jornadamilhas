@@ -1,6 +1,5 @@
 package com.jornadamilhas.api.domain.depoimentos;
 
-import java.io.UnsupportedEncodingException;
 import java.util.Base64;
 
 public record DadosDetalhamentoDepoimento(
